@@ -1,0 +1,319 @@
+%-------------------------
+% Resume in Latex
+% Author : Rizwan
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape Pothapragada Gagana Sindhu} \\ \vspace{1pt}
+    Hyderabad,Telangana \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-9652366775} ~} \href{mailto:rizwanmalikdev@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{gaganasindhu2005@gmail.com}} ~
+    \href{https://www.linkedin.com/in/gaganasindhu-pothapragada-a392612a5/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{yourid}}  ~
+    \href{https://github.com/Gagana-sindhu}{\raisebox{-0.2\height}\faGithub\ \underline{yourid}} ~
+
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sree Dattha Institute Of Engineering And Science}{06 2023 -- 06 2027}
+      {Bachelors in computer science and engineering - \textbf{CGPA} - \textbf{8.25}}{Hyderabad, India}
+  \resumeSubHeadingListEnd
+ 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Narayana Junior College }{06 2021 -- 03 2023}
+      {MPC  - \textbf{80.4\%}}{Hyderabad, India}
+  \resumeSubHeadingListEnd
+
+
+%------RELEVANT COURSEWORK-------
+\section{COURSEWORK / SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Data Structures \& Algorithms
+                \item Operating Systems
+                \item Database Management System (DBMS)
+                \item OOPS Concept
+                \item Web Development
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{https://github.com/Gagana-sindhu/XPLORE-1.0.git}{\textbf{\large{\underline{XPLORE-1.0}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{HTML, CSS, JavaScript, Bootstrap, Kaggle datasets.}}}{2025}
+          \resumeItemListStart
+            \resumeItem{\normalsize{About project \textbf{
+            X-PLORE India 1.0 is a prototype travel website built to simplify destination discovery across India. It highlights curated tourist spots using Kaggle datasets while offering a clean, modern, and responsive user interface. The project emphasizes interactive navigation and smooth transitions to enhance the user experience. Designed with scalability in mind, it lays the foundation for future features such as AI-driven recommendations, real-time updates, and booking functionalities, making it a strong starting point for a comprehensive travel platform.
+            }.}}
+
+
+            \resumeItem{\textcolor{accent} {\href{https://gagana-sindhu.github.io/XPLORE-1.0/} {\underline{\normalsize{Live site here}}}}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+         
+      \resumeProjectHeading
+          {\href{https://github.com/Gagana-sindhu/Employee-Management-System.git}{\textbf{\large{\underline{Employee Management System}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, Tkinter for GUI, and SQLite for database management.}}}{2025}
+          \resumeItemListStart
+            \resumeItem{\normalsize{About project \textbf{This project is a desktop-based Employee Management System developed using Python and Tkinter, designed to simplify the management of employee records. It features a user-friendly interface that allows easy navigation and supports comprehensive record operations such as adding, updating, and deleting employee details. The system integrates an SQLite database to ensure secure and efficient data handling, while advanced search functionality enables quick and accurate retrieval of information. Developed collaboratively in a team setting, the project emphasizes structured design, smooth functionality, and scalability for future enhancements.}.}}
+        
+          \resumeItemListEnd
+          \vspace{-13pt}
+         
+          \resumeProjectHeading
+           
+           
+          \resumeItemListEnd
+         
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%
+
+
+
+
+%-----------EXPERIENCE-----------
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, Java, C, JavaScript, SQL, Html, Css, React}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Canva, Figma, Cursor}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ GitHub,Git}} \\
+     \textbf{\normalsize{AI Tools:}}{ \normalsize{OpenAI API – ChatGPT, GPT-4 integration,Hugging Face,Google Gemini}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Participated in Evolve 2025 Event Organised By Edam  \href{https://www.linkedin.com/in/gaganasindhu-pothapragada-a392612a5/recent-activity/all/}{\raisebox{-0.1\height}\faExternalLink } }{02 2025}{\underline{}}{Microsoft campus}
+         \resumeSubHeadingListEnd
+         \resumeSubHeadingListStart
+        \resumeSubheading{Hosted a Program as an Anchor \href{https://www.linkedin.com/feed/update/urn:li:activity:7369634770571456512/}{\raisebox{-0.1\height}\faExternalLink } }{06 2025}{\underline{}}{Collage Event}
+        \resumeSubHeadingListEnd
+         
+ \vspace{-11pt}
+ 
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+\resumeSubHeadingListStart
+        \resumeSubheading{UDHGAM 24HR HACKATHON  \href{https://www.linkedin.com/in/gaganasindhu-pothapragada-a392612a5/details/certifications/1741521217528/single-media-viewer/?profileId=ACoAAEmK2o0BvhoUKa8NSARJlfTg_tzzjBM_Z5M}{\raisebox{-0.1\height}\faExternalLink } }{02 2025}{\underline{}}{WOXSEN UNIVERSITY}
+         \resumeSubHeadingListEnd
+         \resumeSubHeadingListStart
+        \resumeSubheading{NATIONAL TESTING AGENCY(Swayam)Programming in Python\href{https://www.linkedin.com/in/gaganasindhu-pothapragada-a392612a5/details/certifications/1751424709432/single-media-viewer/?profileId=ACoAAEmK2o0BvhoUKa8NSARJlfTg_tzzjBM_Z5M}{\raisebox{-0.1\height}\faExternalLink } }{06 2025}{\underline{}}{}
+        \resumeSubHeadingListEnd
+         \resumeSubHeadingListStart
+         \resumeSubheading{CODE UNNATI INNOVATION MARATHON \href{https://www.linkedin.com/in/gaganasindhu-pothapragada-a392612a5/details/certifications/1744125148722/single-media-viewer/?profileId=ACoAAEmK2o0BvhoUKa8NSARJlfTg_tzzjBM_Z5M}{\raisebox{-0.1\height}\faExternalLink } }{2024 -- 2025}{\underline{}}{}
+         \resumeSubHeadingListEnd
+         \resumeSubHeadingListStart
+        \resumeSubheading{CODE UNNATI PROGRAM(Edunet Foundation)\href{https://www.linkedin.com/in/gaganasindhu-pothapragada-a392612a5/details/certifications/1744560831069/single-media-viewer/?profileId=ACoAAEmK2o0BvhoUKa8NSARJlfTg_tzzjBM_Z5M}{\raisebox{-0.1\height}\faExternalLink } }{2024 -- 2025}{\underline{}}{}
+        
+        
+        
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+ 
+
+
+
+\end{document}
